@@ -60,7 +60,7 @@ function App() {
             <div className="weather">{weather.weather[0].main}</div>
           </div>
         </div>
-        ) : ('Invalid Entry')}
+        ) : ('Please Enter The Correct Location')}
       </main>
     </div>
   );
